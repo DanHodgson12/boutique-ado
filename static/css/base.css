@@ -1,9 +1,7 @@
-/* Allows h-100 class and vertical centering to work */
 html {
     height: 100%;
 }
 
-/* 164px is height of main header */
 body {
     background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -60,6 +58,16 @@ body {
 
 .bg-black {
     background: #000 !important;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 /* -------------------------------- Media Queries */
